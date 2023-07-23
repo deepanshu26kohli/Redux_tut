@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Header = (props) => {
-    console.log("header",props.data)
+    // console.log("header",props.data)
    
   return (
     <div>
