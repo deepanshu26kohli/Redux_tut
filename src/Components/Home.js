@@ -1,8 +1,8 @@
 import React from 'react'
-import { addToCart } from '../Services/Actions/Action'
+
 
 const Home = (props) => {
-    console.log("home",props.data)
+    console.log("home",props)
   return (
 
     <div className='box'>
@@ -18,7 +18,10 @@ const Home = (props) => {
                 <span>Price : $1000</span>
             </div>
             <div className="btn-wrapper">
-                <button onClick={()=>{props.addToCartHandler({price:1000,name:"iPhone"})}}>Add to cart</button>
+                <button  onClick={()=>{props.addToCartHandler({price:1000,name:"iPhone"})}}>Add to cart</button>
+            </div>
+            <div className="btn-wrapper" >
+                <button onClick={()=>{props.removeFromCartHandler()}}>Remove from cart</button>
             </div>
         </div>
       </div>

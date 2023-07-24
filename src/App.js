@@ -5,8 +5,8 @@ import HeaderContainer from './Containers/HeaderContainer'
 const App = () => {
   return (
     <div className='App'>
-      <HeaderContainer/>
-   <HomeContainer/>
+      <HeaderContainer />
+      <HomeContainer />
     </div>
   )
 }
