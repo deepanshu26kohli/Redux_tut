@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const Home = (props) => {
-    console.log("home",props)
+    // console.log("home",props)
   return (
 
     <div className='box'>

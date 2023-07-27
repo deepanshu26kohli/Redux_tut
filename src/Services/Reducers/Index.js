@@ -1,7 +1,10 @@
-import cardItem from './Reducer.js'
+import {cardItems  } from './Reducer.js'
+import {compData } from './Reducer1.js'
+
 import { combineReducers } from 'redux'
 export default combineReducers(
     {
-        cardItem,
+        cardItems,compData,
+    
     }
 )

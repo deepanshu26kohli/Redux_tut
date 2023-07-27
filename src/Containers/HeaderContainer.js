@@ -2,7 +2,7 @@ import {connect} from 'react-redux'
 import Header from '../Components/Header'
 
 const mapStateToProps = state =>({
-      data : state.cardItem
+      data : state.cardItems
 })
 const mapDispatchToProps = dispatch => ({
     
